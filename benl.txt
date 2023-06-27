@@ -1,0 +1,44 @@
+Moeilijkheden om de mail te lezen? Bekijk de online versie:
+<%@ include view='rc_be_juttu_personalization_mirrorpage' %>
+
+++++++++++
+JUTTU
+++++++++++
+
+-----------------
+LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT.
+-----------------
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus justo sed mi tincidunt pretium. Duis ante sapien, viverra ac purus et, commodo suscipit metus. Integer fermentum pellentesque libero nec convallis. Nunc efficitur lacus feugiat, pellentesque nisi non, elementum urna. In pretium aliquet convallis. Duis ligula ligula, euismod at purus ut, pulvinar consectetur sem. Vestibulum hendrerit nulla purus, in tincidunt justo laoreet sed. Morbi magna mi, bibendum in luctus in, maximus at ligula. Sed mattis accumsan augue, non venenatis felis ornare eu. 
+
+[ + ] Lorem ipsum dolor sit amet:
+https://www.juttu.be
+
+*********************************************************************************************
+
+[ + ] Facebook:
+https://www.facebook.com/juttuofficial/
+
+[ + ] Instagram:
+https://instagram.com/juttu_official/
+
+[ + ] TikTok:
+https://www.tiktok.com/@juttu_official
+
+[ + ] Pinterest:
+https://www.pinterest.com/juttu_official/
+
+*********************************************************************************************
+
+Deze e-mail is verstuurd naar <%= recipient.email %>
+
+[ + ] Uitschrijven?
+https://www.juttu.be/nl/account/unsubscribe.html?uuid=<%= recipient.account %>&type=email_newsletter&link=footer_signout_nvt_nvt_nvt&utm_source=<%= delivery.nature %>&utm_medium=email&utm_campaign=<%= delivery.deliveryCode %>
+
+[ + ] Lees onze Privacy Policy:
+https://www.juttu.be/nl/legals/privacy-policy.html
+
+[ + ] Lees de algemene voorwaarden op onze website:
+https://www.juttu.be/nl/legals/terms-and-conditions.html
+
+© <%= formatDate(new Date(), "%4Y") %> All rights reserved JUTTU
